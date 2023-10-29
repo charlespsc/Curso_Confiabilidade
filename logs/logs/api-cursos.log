@@ -1,0 +1,70 @@
+01:05:29.361 [main] INFO  br.com.alura.logs.CursoApplication - Iniciando a API de cursos Alura
+01:05:29.543 [restartedMain] INFO  br.com.alura.logs.CursoApplication - Iniciando a API de cursos Alura
+01:05:29.992 [restartedMain] INFO  br.com.alura.logs.CursoApplication - Starting CursoApplication using Java 17.0.8.1 on dell-charles with PID 36067 (/home/charles/Documentos/Curso_Confiabilidade/api-logs/logs/target/classes started by charles in /home/charles/Documentos/Curso_Confiabilidade/api-logs/logs)
+01:05:29.993 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+01:05:29.994 [restartedMain] INFO  br.com.alura.logs.CursoApplication - No active profile set, falling back to 1 default profile: "default"
+01:05:30.065 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:05:30.065 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:05:31.204 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:05:31.283 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+01:05:32.156 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:05:32.166 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:05:32.166 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:05:32.167 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+01:05:32.228 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:05:32.229 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2163 ms
+01:05:32.510 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:05:32.553 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+01:05:32.671 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:05:32.746 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:05:32.934 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:05:32.973 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+01:05:33.601 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+01:05:33.601 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_gnb02jr8qoakdktu6c30pupa6" of relation "curso" does not exist, skipping
+01:05:33.614 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+01:05:33.614 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_rlmtyeahbldcyab7ghi7nwo3o" of relation "curso" does not exist, skipping
+01:05:33.623 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:05:33.631 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:05:34.137 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+01:05:34.523 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:05:34.531 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoint(s) beneath base path '/actuator'
+01:05:34.563 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:05:34.578 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:05:34.598 [restartedMain] INFO  br.com.alura.logs.CursoApplication - Started CursoApplication in 5.046 seconds (JVM running for 5.692)
+01:05:34.670 [restartedMain] INFO  br.com.alura.logs.CursoApplication - API para cadastro de cursos na plataforma Alura
+01:05:56.513 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:05:56.513 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:05:56.515 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+01:07:14.128 [http-nio-8080-exec-7] INFO  b.c.a.l.controller.CursoController - Buscando por todos os registros
+01:27:57.473 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+01:27:57.477 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:27:57.482 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:27:57.538 [restartedMain] INFO  br.com.alura.logs.CursoApplication - Iniciando a API de cursos Alura
+01:27:57.598 [restartedMain] INFO  br.com.alura.logs.CursoApplication - Starting CursoApplication using Java 17.0.8.1 on dell-charles with PID 36067 (/home/charles/Documentos/Curso_Confiabilidade/api-logs/logs/target/classes started by charles in /home/charles/Documentos/Curso_Confiabilidade/api-logs/logs)
+01:27:57.598 [restartedMain] INFO  br.com.alura.logs.CursoApplication - No active profile set, falling back to 1 default profile: "default"
+01:27:57.963 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:27:57.975 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+01:27:58.121 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:27:58.122 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:27:58.123 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:27:58.123 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+01:27:58.136 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:27:58.136 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 532 ms
+01:27:58.261 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:27:58.267 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+01:27:58.299 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+01:27:58.300 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+01:27:58.381 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:27:58.382 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:27:58.564 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+01:27:58.767 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:27:58.772 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoint(s) beneath base path '/actuator'
+01:27:58.790 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:27:58.793 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:27:58.802 [restartedMain] INFO  br.com.alura.logs.CursoApplication - Started CursoApplication in 1.257 seconds (JVM running for 1349.896)
+01:27:58.808 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+01:27:58.809 [restartedMain] INFO  br.com.alura.logs.CursoApplication - API para cadastro de cursos na plataforma Alura
+01:50:09.605 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+01:50:09.607 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+01:50:09.610 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+01:50:09.656 [restartedMain] INFO  br.com.alura.logs.CursoApplication - Iniciando a API de cursos Alura
